@@ -65,7 +65,7 @@ Having a centralized online presence is crucial for:
 
 ### Gallery 
 
-[![Watch the video](images/CYBERTRUCK.mp4)
+[![Watch the video](images/iot.png)](images/Build Your First Raspberry Pi Robot Car.mp4)
 
 Click the image above to watch the introduction video about our project.
 ### License
