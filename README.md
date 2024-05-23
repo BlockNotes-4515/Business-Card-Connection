@@ -1,20 +1,22 @@
-# Business-Card-Connection
+# <u><b>Business-Card-Connection</b></u>
 Let's Connect , Build, Grow, Develop, and Collaborate to include our ideas to build Solutions. Here, is my Business Card so, we are Available at (IITM) till. 4PM 🤑🥰
 
 Absolutely! Here is a comprehensive guide to setting up your GitHub repository with all necessary sections for your Business Card Connection Website:
 
 ---
 
-## Repository: Business Card Connection Website
+## <u><b>Repository: Business Card Connection Website</b></u>
 
 <p align="center">
   <img src="images/Geeks (2).png" alt="Image" border="2" border-color="red">
 </p>
 <hr>
-### <u><<b>Introduction</b></u>
+
+### <u><b>Introduction<b></u>
 
 Welcome to the official GitHub repository for the **Business Card Connection Website**. This platform is designed to introduce our team and showcase our work, making it easy for visitors to learn more about us and connect. Whether you're looking to see our portfolio, learn about our expertise, or reach out for collaboration, this website is your go-to resource.
 <hr>
+
 ### <u><b>Functionality</b></u>
 
 - **Team Introduction**: Detailed profiles of each team member, including their roles, expertise, and contact information.
