@@ -7,6 +7,10 @@ Absolutely! Here is a comprehensive guide to setting up your GitHub repository w
 
 ## Repository: Business Card Connection Website
 
+<p align="center">
+  <img src="images/Geeks (2).png" alt="Image">
+</p>
+
 ### Introduction
 
 Welcome to the official GitHub repository for the **Business Card Connection Website**. This platform is designed to introduce our team and showcase our work, making it easy for visitors to learn more about us and connect. Whether you're looking to see our portfolio, learn about our expertise, or reach out for collaboration, this website is your go-to resource.
