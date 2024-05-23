@@ -10,12 +10,16 @@ Absolutely! Here is a comprehensive guide to setting up your GitHub repository w
 <p align="center">
   <img src="images/Geeks (2).png" alt="Image" border="2" border-color="red">
 </p>
+<hr>
+<img src="https://camo.githubusercontent.com/ea40cfc33ac9e94789b044995f312e432d41bc1fd371f413583092df7649ef3d/68747470733a2f2f692e696d6775722e636f6d2f644261534b57462e676966" alt="Image1">
 
-### Introduction
+### <u><<b>Introduction</b></u>
 
 Welcome to the official GitHub repository for the **Business Card Connection Website**. This platform is designed to introduce our team and showcase our work, making it easy for visitors to learn more about us and connect. Whether you're looking to see our portfolio, learn about our expertise, or reach out for collaboration, this website is your go-to resource.
+<hr>
+<img src="https://camo.githubusercontent.com/ea40cfc33ac9e94789b044995f312e432d41bc1fd371f413583092df7649ef3d/68747470733a2f2f692e696d6775722e636f6d2f644261534b57462e676966" alt="Image1">
 
-### Functionality
+### <u><b>Functionality</b></u>
 
 - **Team Introduction**: Detailed profiles of each team member, including their roles, expertise, and contact information.
 - **Our Work**: A portfolio section highlighting our projects, achievements, and testimonials from satisfied clients.
