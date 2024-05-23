@@ -63,6 +63,11 @@ Having a centralized online presence is crucial for:
 - **Team Members**: Can refer to the website to see detailed profiles and roles within the team.
 - **General Visitors**: Can learn more about our work and get inspired by our projects.
 
+### Gallery 
+
+[![Watch the video](images/CYBERTRUCK.mp4)
+
+Click the image above to watch the introduction video about our project.
 ### License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software, provided that you include the original license and attribution.
