@@ -24,6 +24,7 @@ Welcome to the official GitHub repository for the **Business Card Connection Web
 - **Contact Us**: An easy-to-use contact form for visitors to reach out with inquiries or collaboration proposals.
 - **Responsive Design**: Optimized for both desktop and mobile devices to ensure a seamless user experience.
 - **User-Friendly Interface**: Clean, intuitive design for easy navigation and a pleasant browsing experience.
+<hr>
 
 ### Our Expertise
 
@@ -33,6 +34,7 @@ We specialize in a diverse range of cutting-edge technologies and fields, includ
 - **Artificial Intelligence & Machine Learning**: Developing intelligent solutions to automate processes and analyze data.
 - **Internet of Things (IoT)**: Creating interconnected systems for smart environments and enhanced user experiences.
 - **Mechanics & Electronics**: Designing and building innovative mechanical and electronic systems.
+<hr>
 
 ### Important Links
 
@@ -41,10 +43,12 @@ We specialize in a diverse range of cutting-edge technologies and fields, includ
 - **Issue Tracker**: [Report Issues Here](# https://github.com/BlockNotes-4515/Business-Card-Connection/releases)
 - **Latest Release**: [Download the Latest Release](# https://github.com/BlockNotes-4515/Business-Card-Connection/releases)
 - **Contributing Guide**: [How to Contribute](# https://github.com/BlockNotes-4515/Business-Card-Connection)
+<hr>
 
 ### Description
 
 The **Business Card Connection Website** is a versatile platform designed to present our team and projects effectively. It serves as an online business card, showcasing our skills, expertise, and completed projects. The website is built with a responsive design, ensuring it looks great and functions well on all devices, from desktops to mobile phones.
+<hr>
 
 ### Main Purpose
 
@@ -53,6 +57,7 @@ The primary purpose of this website is to provide a central hub where visitors c
 1. Learn about our team members and their individual expertise.
 2. View our portfolio and the projects we have worked on.
 3. Get in touch with us for potential collaborations, inquiries, or feedback.
+<hr>
 
 ### Importance
 
@@ -61,6 +66,7 @@ Having a centralized online presence is crucial for:
 - **Professional Visibility**: Showcasing our skills and completed projects to potential clients and collaborators.
 - **Networking**: Providing a platform for others to reach out and connect with us.
 - **Transparency**: Offering clear and detailed information about who we are and what we do.
+<hr>
 
 ### Daily Uses
 
@@ -68,12 +74,15 @@ Having a centralized online presence is crucial for:
 - **Partners**: Can understand our expertise and consider us for potential collaborations.
 - **Team Members**: Can refer to the website to see detailed profiles and roles within the team.
 - **General Visitors**: Can learn more about our work and get inspired by our projects.
+<hr>
 
 ### Gallery 
 
 [![Watch the video](images/iot.png)](images/Build Your First Raspberry Pi Robot Car.mp4)
 
 Click the image above to watch the introduction video about our project.
+<hr>
+
 ### License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software, provided that you include the original license and attribution.
@@ -83,6 +92,7 @@ This project is licensed under the MIT License. You are free to use, modify, and
 ---
 
 Feel free to customize any sections to better fit your specific project needs and preferences. This comprehensive setup should provide a clear and professional overview of your project on GitHub.
+<hr>
 
 <p align="center">
   <img src="https://camo.githubusercontent.com/18b71d6613ed935a57f892bfd474812e7138c09e2b102675e7461ec74735caee/68747470733a2f2f726561646d652d747970696e672d7376672e6865726f6b756170702e636f6d3f666f6e743d4f72626974726f6e2673697a653d343026636f6c6f723d253233373941353030266865696768743d3637266475726174696f6e3d333030302663656e7465723d74727565266c696e65733d254630253946253835254236254630253946253836253831254630253946253835254234254630253946253835254234254630253946253836253833254630253946253835254238254630253946253835254244254630253946253835254236254630253946253836253832" alt="Image">
