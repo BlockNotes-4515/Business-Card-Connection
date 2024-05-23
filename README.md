@@ -30,11 +30,11 @@ We specialize in a diverse range of cutting-edge technologies and fields, includ
 
 ### Important Links
 
-- **Project Website**: [Visit the Live Website](#)
-- **Documentation**: [Read the Documentation](#)
-- **Issue Tracker**: [Report Issues Here](#)
-- **Latest Release**: [Download the Latest Release](#)
-- **Contributing Guide**: [How to Contribute](#)
+- **Project Website**: [Visit the Live Website](# https://blocknotes-4515.github.io/Business-Card-Connection/) 
+- **Documentation**: [Read the Documentation](# https://blocknotes-4515.github.io/Business-Card-Connection/) 
+- **Issue Tracker**: [Report Issues Here](# https://github.com/BlockNotes-4515/Business-Card-Connection/releases)
+- **Latest Release**: [Download the Latest Release](# https://github.com/BlockNotes-4515/Business-Card-Connection/releases)
+- **Contributing Guide**: [How to Contribute](# https://github.com/BlockNotes-4515/Business-Card-Connection)
 
 ### Description
 
