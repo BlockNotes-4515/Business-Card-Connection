@@ -1,0 +1,274 @@
+/* General Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+/* Fullscreen background setup */
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+/* Main Container Styling */
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+/* Circular Image Setup */
+#circle {
+    position: absolute;
+    left: -100vh;
+    top: 50%;
+    transform: translate(0%, -50%) rotate(100deg);
+    border-radius: 50%;
+    width: 200vh;
+    height: 200vh;
+    background: url("images/Geeks (4).png") no-repeat center center;
+    background-size: cover;
+    border: 2px solid #ffffff;
+}
+
+/* Stripes Styling */
+.stripe {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+    width: 100%;
+    height: 60px;
+    transform-origin: 0% 50%;
+}
+
+.str1 { transform: translate(0%, -50%) rotate(-20deg); }
+.str2 { transform: translate(0%, -50%) rotate(-10deg); }
+.str4 { transform: translate(0%, -50%) rotate(10deg); }
+.str5 { transform: translate(0%, -50%) rotate(20deg); }
+.str6 { transform: translate(0%, -50%) rotate(30deg); }
+.str7 { transform: translate(0%, -50%) rotate(40deg); }
+
+/* First Stripe Styling */
+.first {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+/* Small Circle Styling */
+.smcircle {
+    position: absolute;
+    right: -.4vw;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 50%;
+    width: .9vw;
+    height: .9vw;
+    background-color: #e1ff00;
+}
+
+/* Second Stripe Styling */
+.sec {
+    opacity: .4;
+    padding-left: 30px;
+    width: 50%;
+    height: 100%;
+    color: #ffffff;
+}
+
+.sec:hover {
+    color: #00ffe7;
+}
+
+.sec a {
+    color: #ffffff;
+}
+
+.sec a:hover {
+    color: #00ffe7;
+}
+
+.sec h4 {
+    font-size: 2vw;
+}
+
+.sec h6 {
+    font-size: 1vw;
+    opacity: .5;
+    font-weight: 500;
+}
+
+/* Panel Styling */
+#panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 5%;
+    height: 30%;
+}
+
+/* Main Circle Styling */
+.mncircle {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    opacity: .08;
+    background-color: #ffffff;
+}
+
+/* Cursor Animation Styling */
+.cursor {
+    z-index: 999;
+    position: fixed;
+    background: #2696E8;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: 0 0 20px #2696E8, 0 0 60px #2696E8, 0 0 100px #2696E8;
+    animation: color 5s infinite;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+@keyframes colors {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+}
+
+.cursor:before {
+    content: " ";
+    position: absolute;
+    background: #2696E8;
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+    transform: translate(-30%, -30%);
+    border-radius: 50%;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Scroll Path and Progress Bar */
+#scrollPath {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+#progressbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0%, 100% { filter: hue-rotate(0deg); }
+    50% { filter: hue-rotate(360deg); }
+}
+
+#progressbar::before,
+#progressbar::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(10px);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    #circle {
+        width: 150vh;
+        height: 150vh;
+        left: -75vh;
+    }
+
+    .stripe {
+        height: 40px;
+    }
+
+    .sec h4 {
+        font-size: 4vw;
+    }
+
+    .sec h6 {
+        font-size: 2vw;
+    }
+
+    .smcircle {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .mncircle {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    #panel {
+        width: 10%;
+        height: 20%;
+        right: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    #circle {
+        width: 100vh;
+        height: 100vh;
+        left: -50vh;
+    }
+
+    .stripe {
+        height: 30px;
+    }
+
+    .sec h4 {
+        font-size: 6vw;
+    }
+
+    .sec h6 {
+        font-size: 3vw;
+    }
+
+    .smcircle {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .mncircle {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    #panel {
+        width: 15%;
+        height: 15%;
+        right: 5%;
+    }
+}
