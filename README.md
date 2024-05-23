@@ -8,7 +8,7 @@ Absolutely! Here is a comprehensive guide to setting up your GitHub repository w
 ## Repository: Business Card Connection Website
 
 <p align="center">
-  <img src="images/Geeks (2).png" alt="Image">
+  <img src="images/Geeks (2).png" alt="Image" border="2" border-color="red">
 </p>
 
 ### Introduction
