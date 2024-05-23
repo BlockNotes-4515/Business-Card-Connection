@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Geeks</title>
+    <link rel="icon" type="image/x-icon" href="images/Geeks (2).png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Team.css">
+
+</head>
+<style>
+    #background-music {
+        display: none;
+    }
+    #play-music {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            max-width: 100%;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        #play-music:hover {
+            background-color: #2eb316;
+        }
+</style>
+
+<body>
+
+    <audio id="background-music" loop>
+        <source src="images/Best Of Me.mp4" type="audio/mp4">
+    </audio>
+    <button id="play-music" onclick="playMusic()">Wanna Listen a Music : )</button>
+    <script>
+        function playMusic() {
+            var audio = document.getElementById('background-music');
+            audio.play().then(() => {
+                document.getElementById('play-music').style.display = 'none'; // Hide the button after playing
+            }).catch((error) => {
+                console.error('Playback prevented:', error);
+            });
+        }
+    </script>
+
+    <div class="cursor"></div>
+    <div id="nav">
+        <img src="https://d33wubrfki0l68.cloudfront.net/439bf938233c24af021ffe6d206cd42f546e1143/ff4ed/assets/logo.svg"
+            alt="">
+        <div id="nav-part2">
+            <a href="https://github.com/BlockNotes-4515"><h4>We, are</h4></a>
+            <a href="https://github.com/BlockNotes-4515"><h4>Ready</h4></a>
+            <a href="https://github.com/BlockNotes-4515"><h4>For a</h4></a>
+            <a href="https://github.com/BlockNotes-4515"><h4>Mission!</h4></a>
+        </div>
+        <div id="nav-part3">
+            <div id="circle"></div>
+        </div>
+    </div>
+    <div id="purple">
+        
+    </div>
+    <div class="main">
+        <div class="page1">
+            
+            <h1>CYBER GEEKS</h1>
+            <h2>No Fear / No Limit</h2>
+            <video autoplay muted loop src="images/CYBERTRUCK.mp4" height="50%" width="50%"></video>
+        </div>
+        <div class="page2">
+            <h1>We, are Cyber Geeks</h1>
+            <div class="page2-container">
+                <div class="page2-left">
+                    <h2>A Creative Door Establish
+                        To Resolve the Conflict &
+                        To Solve the 
+                        Real worldwide
+                        Problems!</h2>
+                </div>
+                <div class="page2-right">
+                    <p>We weave together bold strategy and creative execution to produce thought-provoking digital
+                        experiences. We take a highly personalized approach to delivering branding, web design, and
+                        content marketing solutions. Born in the DC area - now serving clients worldwide.</p>
+                    <a href="https://www.linkedin.com/in/dhruv-dhayal-9568b7262/"><button>About Us!</button></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main">
+            <div class="page1">
+                
+                <h1>FOCUS / COMMAND</h1>
+                <h2>Ready for Real-Life Problems!</h2>
+                <video autoplay muted loop src="images/Build Your First Raspberry Pi Robot Car.mp4" height="50%" width="50%"></video>
+            </div>
+
+
+
+        
+        <div class="page5">
+            <h2>Main Working Area (Expertise / Idea)</h2>
+            <div class="box" data-image="images/iot.png">
+                <h3>Internet of Things (IOT)!</h3>
+                <h4>2024</h4>
+            </div>
+            <div class="box" data-image="images/achine-learning.webp">
+                <h3>Machine Learning (ML)!</h3>
+                <h4>2024</h4>
+            </div>
+            <div class="box" data-image="images/mechanics.jpeg">
+                <h3>Mechanics / Electronics (ME)!</h3>
+                <h4>2024</h4>
+            </div>
+            <div class="box" data-image="images/web-development.png">
+                <h3>Web Development (Front-End / Back-End)!</h3>
+                <h4>2024</h4>
+            </div>
+            <div class="box" data-image="images/ai.webp">
+                <h3>Artifical Intelligence (Researcher Google Scholars)</h3>
+                <h4>2024</h4>
+            </div>
+        </div>
+
+
+        <footer>
+            <footer>
+                <div class="footerContainer">
+                    <div class="socialIcons">
+                        <a href="https://github.com/BlockNotes-4515"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/dhruv-dhayal-9568b7262/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/iprattham/"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/prathamaggarwal/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="footerNav">
+                        <ul>
+                            <li><a href="https://github.com/BlockNotes-4515">D-Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/dhruv-dhayal-9568b7262/">D-Linkdin</a></li>
+                            <li><a href="https://github.com/iprattham/">P-Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/prathamaggarwal/">P-Linkdin</a></li>
+                        </ul>
+                        <br><br>
+                        <div class="footerBottom">
+                            <p>Copyright &copy;2024 Develouped By: <span class="designer">DhruvDhayal , Code & Data-Managed By: Pratham Aggarwal  (DD-Productions).</span></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="Team.js"></script>
+
+    <!-- Scroll Bar Animations -->
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
+    <div id="progressbars"></div>
+    <div id="scrollPaths"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
