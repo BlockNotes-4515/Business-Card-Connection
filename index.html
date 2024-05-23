@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👋 Visiting Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Geeks (2).png" type="image/x-icon">
+
+</head>
+<body>
+
+    <!-- Adding the Audio Voice 
+    <audio controls autoplay muted loop src="#"></audio>-->
+
+    <!-- Adding the Values Header -->
+
+
+    <div id="main">
+        <div id="circle">
+            <div class="stripe str1">
+                <div class="first">
+                    <div class="smcircle"></div>
+                </div>
+                <div class="sec">
+                    <a href="https://blocknotes-4515.github.io/MY-RESUME-VER.2/"><h4>👋 Introduction</h4></a>
+                    <h6>About Myself telling to you!</h6>
+                </div>
+            </div>
+
+            <div class="stripe str2">
+                <div class="first">
+                    <div class="smcircle"></div>
+                </div>
+                <div class="sec">
+                    <a href="https://github.com/BlockNotes-4515"><h4>😎 Github Plateform</h4></a>
+                    <h6>Follow, Connect and let's Build our World.</h6>
+                </div>
+            </div>
+
+            <div class="stripe str3">
+                <div class="first">
+                    <div class="smcircle"></div>
+                </div>
+                <div class="sec">
+                    <a href="https://www.linkedin.com/in/dhruv-dhayal-9568b7262/"><h4>🤑 Linkdin Professional</h4></a>
+                    <h6>Professional Account (Let's Connect).</h6>
+                </div>
+            </div>
+
+            <div class="stripe str4">
+                <div class="first">
+                    <div class="smcircle"></div>
+                </div>
+                <div class="sec">
+                    <a href="https://www.instagram.com/dhayaldhruv271/"><h4>😍 Instagram General</h4></a>
+                    <h6>Follow then I will Follow Back(HangOut).</h6>
+                </div>
+            </div>
+
+            <div class="stripe str5">
+                <div class="first">
+                    <div class="smcircle"></div>
+                </div>
+                <div class="sec">
+                    <a href="https://scholar.google.com/citations?user=dyw4d9sAAAAJ&hl=en"><h4>🕵️‍♂️ Google Scholar</h4></a>
+                    <h6>Here, is my Research Paper Analytics.</h6>
+                </div>
+            </div>
+
+            <div class="stripe str6">
+                <div class="first">
+                    <div class="smcircle"></div>
+                </div>
+                <div class="sec">
+                    <a href="Team.html"><h4>✅ Team "CYBER GEEKS"</h4></a>
+                    <h6>Innovating, Working , Creating & Build Solutions!</h6>
+                </div>
+            </div>
+
+            <div class="stripe str7">
+                <div class="first">
+                    <div class="smcircle"></div>
+                </div>
+                <div class="sec">
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnXVQcfzZNbMTswCcbbSjHSQfsJcVtcWGBGWKcLvBbWlhwlJkClljCJRlSlpfFbkFcCDTQ"><h4>🗽 Contact Form / Enquiries Form</h4></a>
+                    <h6>Any Enquiries / Suggestions / Request / Collaboration / Sponsors</h6>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="panel">
+            <div class="mncircle"></div>
+            <div class="mncircle"></div>
+            <div class="mncircle"></div>
+            <div class="mncircle"></div>
+            <div class="mncircle"></div>
+            <div class="mncircle"></div>
+            <div class="mncircle"></div>
+        </div>
+    </div>
+
+    <!-- Cursor Animations -->
+    <div class="cursor"></div>
+
+    <!-- Scroll Bar Animations -->
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+    <!-- Cursor Animations -->
+    <script type="text/javascript">
+        const cursor=document.querySelector(".cursor");
+        var timeout;
+
+        //follow cursor on mousemove.
+        document.addEventListener("mousemove", (e)=> {
+            let x = e.pageX;
+            let y = e.pageY;
+
+            cursor.style.top=y+"px";
+            cursor.style.left=x+"px";
+            cursor.style.display="block";
+
+            //cursor effects when mouse stopped.
+            function mouseStopped(){
+                cursor.style.display="none";
+            }
+            clearTimeout(timeout);
+            timeout = setTimeout(mouseStopped,1000);
+        });
+
+        //cursor effects when mouse outs.
+        document.addEventListener("mouseout", () => {
+            cursor.style.display = "none";
+        });
+    </script>
+
+    
+    <script type="text/javascript">
+     //for scroll-bar animations.
+     let progress = document.getElementById('progressbar');
+     let totalHeight = document.body.scrollHeight-window.innerHeight;
+
+     window.onscroll=function(){
+        let progressHeight=(window.pageYOffset/totalHeight*100);
+        progress.style.height=progressHeight+"%";
+     }
+    </script>
+</body>
+</html>
